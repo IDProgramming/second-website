@@ -1,0 +1,46 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    height: 400px;
+    background-color: gray;
+    justify-content: center;
+
+
+}
+
+.cloud {
+    height: 50px;
+    width: 50px;
+    
+}
+
+.headerbutton {
+    background-color: blue;
+}
+
+.placeholder {
+    height: 50px;
+    width: 50px;
+}
+.headerlinks {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;  
+}
+.headerlinks a {
+    color: black;
+    text-decoration: none;
+}
+
+.bodyflex { 
+    display: flex;
+    
+}
+
+
+
