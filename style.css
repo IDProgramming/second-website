@@ -1,4 +1,11 @@
 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -6,31 +13,60 @@ body {
 
 .header {
     display: flex;
-    height: 400px;
+    height: 300px;
     background-color: gray;
-    justify-content: center;
-
-
 }
 
 .cloud {
     height: 50px;
     width: 50px;
-    
 }
 
 .headerbutton {
     background-color: blue;
+   height: 35px;
+   width: 100px;
+   color: white;
+   border-radius: 8px;
+   margin-left: 50px;
+   font-weight: bold;
+   
 }
 
 .placeholder {
-    height: 50px;
-    width: 50px;
+    width: 400px;
+    height: 200px;
+}
+
+.placeholdflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: flex-end;
+    margin-left: 1000px;
+    margin-top: 10px;
+    
+    
+}
+
+.centimage {
+    height: 200px;
+    width: 200px;
+}
+
+.centimageflex {
+    display: flex;
+    gap: 20px;
 }
 .headerlinks {
     display: flex;
     gap: 20px;
     list-style-type: none;  
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 400px;
 }
 .headerlinks a {
     color: black;
@@ -39,8 +75,25 @@ body {
 
 .bodyflex { 
     display: flex;
+    justify-content: center;
     
 }
 
+.footer {
+    display: flex;
+    background-color: pink;
+    justify-content: center;
+    min-height: 50px;
+    margin-top: 380px;
+    align-items: center;
 
+}
+
+.maintitleflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    gap: 8px;
+}
 
