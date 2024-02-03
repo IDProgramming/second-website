@@ -5,6 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+button:active {
+    transform: scale(0.95); /* Makes the button slightly smaller when clicked */
+}
+
 
 .centimage {
     width: 180px;
@@ -155,6 +159,7 @@ a {
 
 .bluecontainer {
     background-color: #3882f6;
+    border: 2px solid black;
     display: flex;
     border-radius: 8px;
     width: 70%;
